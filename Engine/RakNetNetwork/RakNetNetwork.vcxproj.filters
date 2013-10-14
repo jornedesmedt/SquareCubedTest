@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\PacketDispatchers">
+      <UniqueIdentifier>{d4d219ec-6a32-4330-8c72-bfd3438cfaf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PacketDispatchers">
+      <UniqueIdentifier>{2ac613bf-615b-4d55-b474-669431b2dcc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PacketHandlers">
+      <UniqueIdentifier>{4baa0e9f-607e-499a-bb90-5bdc2edf5de9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PacketHandlers">
+      <UniqueIdentifier>{fcd250ce-25c1-4680-a7ca-c73166c02298}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RakNetNetwork.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RakNetNetworkLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IRakNetPacketHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuPacketHandler.h">
+      <Filter>Header Files\PacketHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="RakNetNetworkFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDispatcher.h">
+      <Filter>Header Files\PacketDispatchers</Filter>
+    </ClInclude>
+    <ClInclude Include="AgentsPacketHandler.h">
+      <Filter>Header Files\PacketHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerPacketHandler.h">
+      <Filter>Header Files\PacketHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerDispatcher.h">
+      <Filter>Header Files\PacketDispatchers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RakNetNetwork.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuPacketHandler.cpp">
+      <Filter>Source Files\PacketHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="RakNetNetworkFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameDispatcher.cpp">
+      <Filter>Source Files\PacketDispatchers</Filter>
+    </ClCompile>
+    <ClCompile Include="AgentsPacketHandler.cpp">
+      <Filter>Source Files\PacketHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerPacketHandler.cpp">
+      <Filter>Source Files\PacketHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerDispatcher.cpp">
+      <Filter>Source Files\PacketDispatchers</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

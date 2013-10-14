@@ -1,0 +1,2 @@
+Release\tests
+pause

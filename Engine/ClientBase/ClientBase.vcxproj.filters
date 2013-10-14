@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Graphics">
+      <UniqueIdentifier>{5d76ab20-2e9b-48e1-9b3b-774c39acb183}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{f285826b-0938-4b4b-a83b-06bc765a2293}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{5230142d-e11c-4dcb-b172-d74d30fa2179}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Input">
+      <UniqueIdentifier>{f9ac410d-6b97-468e-93f3-06e93bf09c8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Context">
+      <UniqueIdentifier>{6269eea6-f36a-4390-add8-d7532a9197db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\StateEngine">
+      <UniqueIdentifier>{1b9e129b-f9e6-48d1-a63d-0543774f8541}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Network">
+      <UniqueIdentifier>{d2ddb7d0-7e88-41d0-94df-dd9f77908897}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Network\PacketDispatchers">
+      <UniqueIdentifier>{a2d47713-4002-4b5c-8ede-3480835545c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Network\HandlerCallbacks">
+      <UniqueIdentifier>{c0e0bc5c-f5d0-41ea-9129-d4cd317370ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Content">
+      <UniqueIdentifier>{18045324-d7dd-45a5-a8aa-7cc576296c2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Renderers">
+      <UniqueIdentifier>{280672f4-7c08-400d-ad2c-781f6bf7c796}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Content Types">
+      <UniqueIdentifier>{2effc267-0ab9-4940-82de-007bdf0803b2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IGraphics.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="ICamera.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="IInput.h">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="IContext.h">
+      <Filter>Header Files\Context</Filter>
+    </ClInclude>
+    <ClInclude Include="IWindow.h">
+      <Filter>Header Files\Context</Filter>
+    </ClInclude>
+    <ClInclude Include="IStateEngine.h">
+      <Filter>Header Files\StateEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="IState.h">
+      <Filter>Header Files\StateEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="INetwork.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="IPacketHandler.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="INetworkFactory.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="IMainMenuCallback.h">
+      <Filter>Header Files\Network\HandlerCallbacks</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameDispatcher.h">
+      <Filter>Header Files\Network\PacketDispatchers</Filter>
+    </ClInclude>
+    <ClInclude Include="IAgentsCallback.h">
+      <Filter>Header Files\Network\HandlerCallbacks</Filter>
+    </ClInclude>
+    <ClInclude Include="IPlayerCallback.h">
+      <Filter>Header Files\Network\HandlerCallbacks</Filter>
+    </ClInclude>
+    <ClInclude Include="IGraphicsFactory.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="IPlayerDispatcher.h">
+      <Filter>Header Files\Network\PacketDispatchers</Filter>
+    </ClInclude>
+    <ClInclude Include="IContent.h">
+      <Filter>Header Files\Content</Filter>
+    </ClInclude>
+    <ClInclude Include="IContentBase.h">
+      <Filter>Header Files\Content</Filter>
+    </ClInclude>
+    <ClInclude Include="ITileRenderer.h">
+      <Filter>Header Files\Graphics\Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="ITexture2D.h">
+      <Filter>Header Files\Graphics\Content Types</Filter>
+    </ClInclude>
+    <ClInclude Include="ITileArray.h">
+      <Filter>Header Files\Graphics\Content Types</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
